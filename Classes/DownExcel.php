@@ -134,8 +134,7 @@ class DownExcel
     // 能够简单一维合并行的数据填充
     public function inputData($excel, $data,$cellName,$startPosition,$cell_count)
     {
-        foreach ($data as $v){
-            unset($v['dish_id']);
+        foreach ($data as $v){           
             $max_num = $this->getChildMaxNum($v);
             $v = array_values($v);
             $position = ++$startPosition;
