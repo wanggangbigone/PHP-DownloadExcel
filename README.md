@@ -8,10 +8,16 @@ The project has not be maintained for years and must not be used anymore. **All 
 
 PHPExcel is licensed under [LGPL (GNU LESSER GENERAL PUBLIC LICENSE)](https://github.com/PHPOffice/PHPExcel/blob/master/license.md)
 
-## cells
+## cells format
 array(
   '姓名',
   '年龄',
-  '技能'=>['mysql','php'],
+  '技能分'=>['mysql','php'],
   '综合得分'
 )
+
+## date format
+array(
+  ['jack','21','90','80','85']
+)
+
