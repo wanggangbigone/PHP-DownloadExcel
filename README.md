@@ -8,6 +8,13 @@ The project has not be maintained for years and must not be used anymore. **All 
 
 PHPExcel is licensed under [LGPL (GNU LESSER GENERAL PUBLIC LICENSE)](https://github.com/PHPOffice/PHPExcel/blob/master/license.md)
 
+## use
+require_once "DownExcel.php";
+$title : 名字
+$cells : 到处列名
+$data  : 数据
+
+
 ## cells format
 array(
   '姓名',
